@@ -30,11 +30,10 @@ body{
     width: 279px;
     height: 108px;
 }
-.contact{
+.contact {
     background-color: #777777;
     width: 513px;
     height: 108px;
-    list-style-type: none;
     align-items: flex-end;
     display: flex;
     flex-direction: column;
@@ -42,6 +41,12 @@ body{
     padding-right: 25px;
     padding-top:20px;
 }
+
+.contact ul {
+    color: white;
+    list-style-type: none;
+}
+
 .main{
     display: flex;
     justify-content: space-between;
@@ -73,7 +78,7 @@ body{
     flex-direction: column;
 }
 .main_top{
-width: 756px;
+    width: 756px;
     height: 210px;
     background-color: #dcdcdc;
     padding-left: 20px;
@@ -82,9 +87,9 @@ width: 756px;
 }
 .main_top ul{
     color: #777777;
-    list-style-type: none;
+    list-style-type: square;
     padding-left: 45px;
-    text-indent: -5px;
+    text-indent: -3px;
     margin-top: 20px;
 }
 .main_bottom{
@@ -136,18 +141,33 @@ footer{
     padding-left: 22px;
     padding-top: 11px;
 }
-.bottom_list_second ul{
-    background-color: #777777;
+.bottom_list_second ul {
     width: 297px;
     height: 180px;
-    list-style-type: square;
-    color: white;
-    padding-left: 35px;
+    background-color: #777777;
+    padding-left: 40px;
     padding-top: 11px;
+    list-style-type: square;
     text-indent: -7px;
+    color: white;
 }
 .bottom_list_second li::marker {
-    font-size: 140%;
+    font-size: 120%;
 }
+a{
+    color: white;
+}
+.footerrightblock{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 186px;
+}
+.last_block{
+    width: 308px;
+    height: 77px;
+    background-color: #777777;
+}
+
 
 
