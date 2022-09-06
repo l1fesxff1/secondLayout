@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
 body{
     margin: 0;
     padding: 0;
@@ -57,7 +62,257 @@ body{
     align-items: center;
 }
 .contactsHeader{
+    width:256px;
+    color: #767676;
+    font-size: 32.3px;
+    font-weight: 400;
+    line-height: 46px;
+    text-align: left;
+    padding: 0;
 }
 #numbers{
+    width: 256px;
+    font-family: 'PT Sans';
+    height: 81px;
+}
+#numbers a{
+    color: #767676;
+    text-decoration: none;
+}
+#contentMenu {
+    margin: 0 auto 0 auto;
+    width: 980px;
+    height: 80px;
+    padding: 0 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
 
+}
+.menuList{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "PT Sans";
+    width: 980px;
+    line-height: normal;
+    letter-spacing: 0.35px;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0;
+}
+.menuList:after{
+    position: absolute;
+    top: 0;bottom: 0;left: -1px;
+    width: 3px;
+    background-color: inherit;
+}
+.forMargin{
+    margin: 0 0;
+    padding: 0 20px;
+    white-space: nowrap;
+    color: #fff;
+}
+.decoration{
+    color: white;
+    text-decoration: none;
+}
+#contentPart{
+    margin: 30px auto 0 auto;
+    width: 980px;
+    padding: 0 10px;
+    display: flex;
+    height: 560px;
+}
+#newsList{
+    background-color: #767676;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding-bottom: 100px;
+}
+.newsContent{
+    margin-left: 33px;
+    width: 256px;
+}
+.title{
+    width: 147px;
+    margin-top: 22px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: left;
+    padding: 0;
+    color: #ffffff;
+    font-family: "PT Sans";
+}
+.firstNews{
+    width: 265px;
+    line-height: 22px;
+    margin-top: 38px;
+}
+.titleOfNews{
+    margin-bottom: 0;
+    padding: 0;
+    font-family: "PT Sans";
+    font-style: italic;
+    letter-spacing: 0.35px;
+    color: #ffffff;
+    font-size: 14px;
+    margin-top: 0;
+    text-align: left;
+}
+.contentNews{
+    margin: 0;
+    width: 265px;
+    font-family: "PT Sans";
+    font-size: 14px;
+    color:#ffffff;
+    font-weight: 400;
+    letter-spacing: 0.35px;
+}
+.secondNews{
+    width:265px;
+    line-height: 22px;
+    margin-top:30px;
+    word-break: break-all;
+}
+.thirdNews{
+    width:265px;
+    height: 60px;
+    line-height: 22px;
+    margin-top:30px;
+}
+.fourthNews{
+    width:265px;
+    height: 60px;
+    line-height: 22px;
+    margin-top:30px;
+}
+.archive{
+    font-family: "PT Sans";
+    text-align: right;
+    margin-top: 37px;
+    margin-bottom: 0;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    font-weight: 400;
+}
+.middleText{
+    width: 569px;
+    margin-left: 411px;
+    padding: 0;
+    height: 493px;
+}
+.middleTitle{
+    font-family: "PT Sans";
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #767676;
+}
+.middleContentFirst{
+    margin-top: 35px;
+    font-family: "PT Sans";
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    color: #8a8a8a;
+}
+.middleContentSecond{
+    margin-top: 30px;
+    font-family: "PT Sans";
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    color: #8a8a8a;
+}
+.middleContentThird{
+    margin-top: 30px;
+    font-family: "PT Sans";
+    line-height: 22px;
+    font-size: 14px;
+    letter-spacing: 0.35px;
+    color: #8a8a8a;
+}
+.archive a{
+     text-decoration: underline;
+ }
+.footerContent{
+    width: 980px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    padding: 0 10px;
+}
+.contentFooterRight{
+    position: absolute;
+    width:350px;
+    display: flex;
+    margin-top: 0;
+}
+.copyright{
+    width: 200px;
+    margin-top: 50px;
+}
+.copyrightText{
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.30px;
+    font-weight: 400;
+    margin:0;
+}
+.footerList{
+    width: 119px;
+    height: 117px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    text-decoration: underline;
+    margin-left: 350px;
+    padding:0;
+    margin-top: 50px;
+    position: absolute;
+
+}
+.footerUl{
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+.footerCompany{
+    width: 36px;
+    height: 38px;
+}
+.footerLogo{
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left:750px;
+}
+.footerLogoText{
+    width: 170px;
+    color: #ffffff;
+    font-family: "PT Sans";
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+    margin-left: 9px;
+}
+a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.archive a{
+    text-decoration: underline;
 }
